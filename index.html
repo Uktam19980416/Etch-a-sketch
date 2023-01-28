@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="shortcut icon" href="./pngegg.png" />
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <header class="header">
+    <h1 class="header__title">Etch-a-sketch</h1>
+  </header>
+  <main class="main">
+    <div class="main__actions">
+      <input 
+        class="color" 
+        type="color"
+        value="#000000"
+      >
+      <button class="color__mode">Color Mode</button>
+      <button class="rainbowe__mode">Rainbow</button>
+      <button class="eraser__mode">Eraser</button>
+      <button class="clear__mode">Clear</button>
+      <p class="block__size">10 x 10</p>
+      <input class="size__slider"
+              type="range" 
+              min="1" 
+              max="50"
+              value="10"
+      >
+    </div>
+      <div class="paper__block"></div>
+  </main>
+  <footer class="footer">
+    <div class="made__by">
+      Made By <i class="fa fa-brands fa-github-alt"></i>
+      <a class="made__by__name" href="https://github.com/Uktam19980416">Uktamjon</a>
+      <script>
+        document.write(new Date().getFullYear());
+      </script>
+    </div>
+  </footer>
+</body>
+<script src="script.js"></script>
+</html>
